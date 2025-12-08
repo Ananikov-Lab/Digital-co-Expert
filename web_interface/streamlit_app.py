@@ -329,6 +329,34 @@ if menu == "Home":
             <li>Browse through the <strong>reaction table</strong> to explore different transformations and their thermodynamic properties.</li>
             <li>Navigate to the <strong>"Reaction Viewer"</strong> section to analyze reactions interactively.</li>
         </ul>
+""",
+        unsafe_allow_html=True
+    )
+    st.markdown("## 📥 Download Datasets")
+    st.markdown("All computational data generated in this study are available for download:")
+    with open('supporting_files/df_reactions_multi_cas_cleaned.csv', 'rb') as f:
+        csv_data = f.read()
+    st.download_button(
+        label="📊 Full reaction dataset (CSV, ~15 MB)",
+        data=csv_data,
+        file_name="df_reactions_multi_cas_cleaned.csv",
+        mime="text/csv",
+        help="31,000 generated cycloaddition reactions with computed energies (ΔrG from QM9), CAS registry numbers, functional group annotations, and heteroatom counts"
+    )
+    import pickle as pkl
+
+    with open('supporting_files/dict_variables_qm9_1310.pkl', 'rb') as f:
+        pkl_data = f.read()
+    st.download_button(
+        label="🧬 Reaction embeddings (PKL, ~50 MB)",
+        data=pkl_data,
+        file_name="dict_variables_qm9_1310.pkl",
+        mime="application/octet-stream",
+        help="Transformer-based reaction embeddings (768-dimensional vectors) used for k-means clustering"
+    )
+    st.markdown("""
+        <p><strong>Note:</strong> For programmatic access and reproducible workflows, visit our
+        <a href="https://github.com/Ananikov-Lab/Digitcal-co-Expert" target="_blank">GitHub repository</a>.</p>
 
         <h2>👩‍🔬 Authors</h2>
         <p><strong>Nikita I. Kolomoets<sup> †,a</sup>, Daniil A. Boiko<sup> †,a</sup>, Leonid V. Romashov<sup> a</sup>, Kirill S. Kozlov<sup> a</sup>, Evgeniy G. Gordeev<sup> a</sup>, Alexey S. Galushko<sup> a</sup>, Valentine P. Ananikov<sup> *,a</sup></strong></p>
