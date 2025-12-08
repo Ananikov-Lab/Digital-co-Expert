@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fanie.XXXXXXXX-blue)](https://doi.org/10.1002/anie.XXXXXXXX)
 
 > **Automated pipeline for discovering new chemical transformations by combining rule-based generation, quantum chemistry, and unsupervised machine learning.**
 
@@ -275,11 +274,11 @@ cd final_filter
 
 python fine_filter_reactions_by_energy.py \\
     --input-csv ../working_files/dft_reactions.csv \\
-    --number 10 \\
+    --number 9 \\
     --output ../working_files/final_candidates.csv
 ```
 
-**Output:** 10 reactions for high-throughput GC-MS screening → **2 experimentally validated novel cycloadditions**
+**Output:** 9 reactions for high-throughput GC-MS screening → **2 experimentally validated novel cycloadditions**
 
 ---
 
@@ -359,7 +358,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 - QM9 dataset: [Ramakrishnan et al., *Sci Data* 2014](https://doi.org/10.1038/sdata.2014.22)
 - rxnfp transformer: [Schwaller et al., *Nat Mach Intell* 2021](https://doi.org/10.1038/s42256-020-00284-w)
-- Funding: Russian Science Foundation (grant XX-XX-XXXXX)
 
 ---
 
