@@ -204,9 +204,9 @@ python parse_manual_labels.py \\
     --output ../working_files/expert_labels/ \\
     --numbers ../working_files/reaction_ids.pkl \\
     --csv ../working_files/expert_data.csv
-\`\`\`
+```
 
-**Output:** \`expert_data.csv\` (205 reactions with feasibility scores and synthetic utility ratings)
+**Output:** `expert_data.csv` (205 reactions with feasibility scores and synthetic utility ratings)
 
 ---
 
@@ -214,7 +214,7 @@ python parse_manual_labels.py \\
 
 Generate product structures with laboratory-available alkynes and optimize with DFT:
 
-\`\`\`bash
+```bash
 cd laboratory_database_of_reagents
 
 # 1. Extract alkyne substituents from lab inventory
