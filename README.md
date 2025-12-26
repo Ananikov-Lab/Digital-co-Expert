@@ -1,4 +1,4 @@
-# Machine Learning-Assisted Discovery of Novel Cycloaddition Reactions
+# Reaction Discovery involving Digital co-Expert with a Practical Application in Atom-Economic Cycloaddition
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -6,7 +6,7 @@
 > **Automated pipeline for discovering new chemical transformations by combining rule-based generation, quantum chemistry, and unsupervised machine learning.**
 
 This repository contains code and data for the manuscript:  
-**"Machine Learning-Assisted Discovery of Novel Cycloaddition Reactions"**  
+**"Reaction Discovery involving Digital co-Expert with a Practical Application in Atom-Economic Cycloaddition"**  
 *Nikita I. Kolomoets†, Daniil A. Boiko†, Leonid V. Romashov, Kirill S. Kozlov, Evgeniy G. Gordeev, Alexey S. Galushko, Valentine P. Ananikov\**  
 Published in *Angewandte Chemie International Edition* (2025)
 
