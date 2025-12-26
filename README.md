@@ -8,7 +8,6 @@
 This repository contains code and data for the manuscript:  
 **"Reaction Discovery involving Digital co-Expert with a Practical Application in Atom-Economic Cycloaddition"**  
 *Nikita I. Kolomoets†, Daniil A. Boiko†, Leonid V. Romashov, Kirill S. Kozlov, Evgeniy G. Gordeev, Alexey S. Galushko, Valentine P. Ananikov\**  
-Published in *Angewandte Chemie International Edition* (2025)
 
 ---
 
