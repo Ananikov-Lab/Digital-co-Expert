@@ -21,7 +21,7 @@ The search for new chemical transformations is a fundamental challenge in modern
 4. **Prioritizes candidates** through expert evaluation and DFT-based substituent optimization
 5. **Validates experimentally**, resulting in **2 novel cycloaddition reactions**
 
-🌐 **Explore the dataset interactively:** [http://app.ananikovlab.ai:8510](http://app.ananikovlab.ai:8510)
+🌐 **Explore the dataset interactively:** [https://digital-co-expert.ananikovlab.ai/](https://digital-co-expert.ananikovlab.ai/)
 
 ---
 
@@ -72,7 +72,6 @@ The search for new chemical transformations is a fundamental challenge in modern
 
 - Python 3.8+
 - [RDKit](https://www.rdkit.org/) (chemistry toolkit)
-- [rxnfp](https://github.com/rxn4chemistry/rxnfp) (reaction fingerprints)
 - MOPAC2016 (for PM7 calculations)
 - Gaussian 16 (for DFT calculations)
 
@@ -285,7 +284,7 @@ python fine_filter_reactions_by_energy.py \\
 
 ### Download Datasets
 
-All computational data are available at [http://app.ananikovlab.ai:8510](http://app.ananikovlab.ai:8510):
+All computational data are available at [https://digital-co-expert.ananikovlab.ai/](https://digital-co-expert.ananikovlab.ai/):
 
 - **Full reaction dataset** (CSV, 31k reactions): Reaction SMILES, ΔrG from QM9, CAS numbers, functional group annotations
 - **Reaction embeddings** (PKL, 768D vectors): Transformer-based features for clustering
@@ -326,16 +325,14 @@ If you use this code or data, please cite:
 
 ```bibtex
 @article{kolomoets2025cycloaddition,
-  title={Machine Learning-Assisted Discovery of Novel Cycloaddition Reactions},
+  title={Reaction Discovery Involving Digital co-Expert with a Practical Application in Atom-Economic Cycloaddition},
   author={Kolomoets, Nikita I. and Boiko, Daniil A. and Romashov, Leonid V. and Kozlov, Kirill S. and Gordeev, Evgeniy G. and Galushko, Alexey S. and Ananikov, Valentine P.},
   journal={Angewandte Chemie International Edition},
-  year={2025},
+  year={2026},
   publisher={Wiley-VCH},
-  doi={10.1002/anie.XXXXXXXX}
+  doi={10.1002/anie.202523905}
 }
 ```
-
-**Web interface:** Kolomoets, N. I. et al. (2025). *Cycloaddition Reaction Database*. [http://app.ananikovlab.ai:8510](http://app.ananikovlab.ai:8510)
 
 ---
 
@@ -356,7 +353,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 🙏 Acknowledgments
 
 - QM9 dataset: [Ramakrishnan et al., *Sci Data* 2014](https://doi.org/10.1038/sdata.2014.22)
-- rxnfp transformer: [Schwaller et al., *Nat Mach Intell* 2021](https://doi.org/10.1038/s42256-020-00284-w)
 
 ---
 
